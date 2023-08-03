@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7ed2da722e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="preloader"></div>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/Images/logo.png" class="logo"> 
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a> </li>
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#services">Services</a> </li>
+                    <li> <a href="#portfolio">Portfolio</a> </li>
+                    <li> <a href="#contact">Contact</a> </li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars fa-xl" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>KONNICHIWA,<br>I am <span>Vaibhav Sharma</span>,<br>
+                    Computer Science Engineer.</h1>
+                    <p>Full Stack Developer | AI&ML Enthusiast</p>
+            </div>
+        </div>
+    </div>
+<!-------------------------------------------About section---------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.png" alt="" sizes="" srcset="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">My Profile</h1>
+                    <p> I am a highly motivated third-year CSE student with a passion for full-stack web development, software testing, artificial intelligence, machine learning and Japanese language. I am dedicated to staying up-to-date on the latest industry developments and applying my knowledge to solve complex problems.
+                        I am interested in game development and plan to explore this area in the future.
+                        Currently, I am focused on advancing my web development and competitive programming skills, seeking opportunities to make an impact by applying my skillset to real-world problems, and contributing to open-source projects.
+                        As a detail-oriented and analytical individual, I possess excellent problem-solving and critical-thinking skills, which enable me to work effectively both independently and as part of a team. I am also a quick learner who is always eager to expand my knowledge and skillset.
+                        Overall, I am committed to utilizing my passion for technology to drive innovation and create value in the industry. 
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Full Stack Develober</span><br>Work on both the front-end and back-end of web applications. </li>
+                                <li><span>Data Analyst</span><br>A data analyst is who collects, processes, and performs statistical analyses on large sets of data to identify patterns, trends, and insights.  </li>
+                                <li><span>Deep Learning</span><br>It captures the essence of this subfield of machine learning, which uses neural networks to analyze and model patterns in data.</li>
+                                <li><span>Core Java</span> <br>Widely-used object-oriented programming language forming the foundation for many applications and software platforms.</li>
+                                <li><span>Agile</span> <br>Flexible, collaborative software dev method emphasizing iterative dev and high-quality delivery. </li>
+                                
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>NasyaHealthCare</span><br>Data Analyst Internship<br>Jan 23 - Apr 23</li>
+                                <li><span>NasyaHealthCare</span><br>Web Developer Internship<br>Jan 23 - Apr 23</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education"> 
+                            <ul>
+                                <li><span>B-Tech in Computer Science Engineering</span><br>I am currently pursuing a Bachelor of Technology degree in Computer Science and Engineering.
+                                    My academic curriculum includes various subjects such as Introduction to AI and Machine Learning, 
+                                    Fundamentals of Data Analytics, Data Structures and Algorithms, Analysis and Design of Algorithms, Object-Oriented Programming, 
+                                    Database Management Systems, Theory of Computation, Operating Systems, Networking, Cloud Computing Practitioner, 
+                                    Software Testing and Quality Assurance, Deep Learning and Neural Network, Japanese Written Expression and Comprehension, Compiler Construction, and Software Engineering.
+                                    These courses have provided me with a strong foundation in computer science, particularly in the areas of algorithms, data structures, 
+                                    programming languages, database management systems, operating systems, and computer networks. 
+                                    I am also proficient in machine learning and deep learning techniques, as well as cloud computing and software engineering methodologies. 
+                                    This academic background has given me a strong foundation to pursue a career in the field of computer science, 
+                                    and I am excited to continue learning and growing in this dynamic and ever-evolving field.<br>2020-2024</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-------------------------------------------------Services-------------------------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code fa-xl"></i>
+                <h2>Full Stack development</h2>
+                <p>Focus on creating scalable, secure, and responsive web applications tailored to your specific business needs.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple fa-xl"></i>
+                <h2>Data Analyst</h2>
+                <p>With my expertise in data analysis, I help you clients unlock the full potential of their data to drive business growth and success.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-wand-magic-sparkles fa-xl"></i>
+                <h2>Video Editing & Animation</h2>
+                <p>I ensure you that your videos are polished, engaging, and effective in delivering your message.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------------------Portfolio---------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"><a href="https://github.com/sharmavaibhav20"><i class="fa-brands fa-github fa-xl"></i></a> My Work </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/Images/work-1.png">
+                <div class="layer">
+                    <h3>Location App</h3>
+                    <p>My location app allows users to find their current location and 
+                       search for nearby places of interest, such as restaurants, cafes, and shops.</p>
+                        <a href="https://github.com/sharmavaibhav20/location-app">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-l"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/Images/work-2.png">
+                <div class="layer">
+                    <h3>Personality Checker</h3>
+                    <p>In this Personality checking system it divides people into TEN distinct personality types.</p>
+                        <a href="https://github.com/sharmavaibhav20/Personality-checker-by-python-K-means-">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-l"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/Images/work-3.png">
+                <div class="layer">
+                    <h3>Fraud Detection</h3>
+                    <p>This is credit card fraud detection using logistic regression.</p>
+                        <a href="https://github.com/sharmavaibhav20/FRAUD_DETECTION">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-l"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/Images/work-4.png">
+                <div class="layer">
+                    <h3>Diagnosis Website</h3>
+                    <p>My website provides diagnosis for various medical conditions through a user-friendly interface.</p>
+                        <a href="https://github.com/sharmavaibhav20/html-css-js-for-dignosis-website">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-l"></i></a>
+                </div>
+        </div>
+        </div>
+        <a href="https://github.com/sharmavaibhav20" class="btn">See more...</a>
+    </div>
+</div>
+
+<!-------------------------------------------Contact---------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-envelope fa-xl"></i> sharmavaibhav112233@gmail.com</p>
+                <p><i class="fa-brands fa-whatsapp fa-xl"></i> +91 9958401088</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vaibhav-sharma-vs17/"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                    <a href="https://instagram.com/svaibhav.20?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram fa-xl"></i></i></a>
+                    <a href="https://github.com/sharmavaibhav20"><i class="fa-brands fa-github fa-xl"></i></a>
+                </div>
+                <a href="/Images/Resume copy.pdf" download class="btn1">Download My Resume</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn1 btn2">Submit</button>
+                </form>
+                <span id="msg"></i></span>
+            </div>
+        </div>
+    </div>
+    <div id="up">
+            <a href="#"><i class="fa-regular fa-circle-up"></i> </a>
+    </div>
+    <div class="copyright">
+        <p>Copyright Ⓒ Vaibhav Sharma <i class="fa-solid fa-laptop-code"></i></p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzAYTHkuZNYwCzQEFPUB87UFb-3KcSeJh85DIp2mTsBOjhIc8z0BEG6xjWOkP7X-guA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load",function(){
+        loader.style.display= "none"
+    })
+
+</script>
+
+</body>
+</html>
